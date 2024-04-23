@@ -2,8 +2,8 @@ import os
 from dicom_utils import find_file_with_prefix, read_dicom_rs_file, read_dicom_rd_file, get_contour_data, \
     read_dicom_CT_file, plot_contour, get_radiation_maps
 
-EXAMPLE_FOLDER_Radiation_Plans = r"C:\Users\USER\PycharmProjects\DICOM\7227_Radiation plans_27102021\7227_Radiation plans_27102021"
-EXAMPLE_FOLDER_CT = r"C:\Users\USER\PycharmProjects\DICOM\7227_anatomyCT_27102021\7227_FSR_RT Hipocampus_27102021"
+EXAMPLE_FOLDER_Radiation_Plans = r"C:\Users\USER\Documents\dicom-utils\data\7227_Radiation plans_27102021\7227_Radiation plans_27102021"
+EXAMPLE_FOLDER_CT = r"C:\Users\USER\Documents\dicom-utils\data\7227_anatomyCT_27102021\7227_FSR_RT Hipocampus_27102021"
 
 
 def test_find_file_with_prefix():
